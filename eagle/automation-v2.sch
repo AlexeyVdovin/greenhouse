@@ -16671,7 +16671,7 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <class number="0" name="default" width="0.254" drill="0">
 <clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="POWER" width="0.4064" drill="0">
+<class number="1" name="POWER" width="0.508" drill="0">
 <clearance class="1" value="0.254"/>
 </class>
 <class number="2" name="HV" width="1.27" drill="0">
@@ -17563,11 +17563,11 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="-27.94" y1="-45.72" x2="-27.94" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="-53.34" x2="-22.86" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="PD7(AIN1/PCINT23)"/>
-<wire x1="-43.18" y1="35.56" x2="-33.02" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="35.56" x2="-33.02" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="25.4" x2="-33.02" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-45.72" x2="-33.02" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="-27.94" y="-45.72"/>
+<pinref part="IC1" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
+<wire x1="-43.18" y1="25.4" x2="-33.02" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -17756,11 +17756,11 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="-27.94" y1="-78.74" x2="-27.94" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="-86.36" x2="-22.86" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="PB0(ICP1/CLKO/PCINT0)"/>
-<wire x1="-43.18" y1="30.48" x2="-35.56" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-78.74" x2="-35.56" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="-78.74" x2="-35.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-78.74" x2="-35.56" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-27.94" y="-78.74"/>
+<pinref part="IC1" gate="1" pin="PB1(OC1A/PCINT1)"/>
+<wire x1="-43.18" y1="27.94" x2="-35.56" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -17824,11 +17824,11 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="-45.72" y1="-78.74" x2="-45.72" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="-86.36" x2="-50.8" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="PB1(OC1A/PCINT1)"/>
-<wire x1="-43.18" y1="27.94" x2="-38.1" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-78.74" x2="-38.1" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-78.74" x2="-38.1" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-78.74" x2="-38.1" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-45.72" y="-78.74"/>
+<pinref part="IC1" gate="1" pin="PD7(AIN1/PCINT23)"/>
+<wire x1="-38.1" y1="35.56" x2="-43.18" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -17892,11 +17892,11 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="-45.72" y1="-45.72" x2="-45.72" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="-53.34" x2="-50.8" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
-<wire x1="-43.18" y1="25.4" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-45.72" x2="-40.64" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="-45.72" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-45.72" x2="-40.64" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-45.72" y="-45.72"/>
+<pinref part="IC1" gate="1" pin="PB0(ICP1/CLKO/PCINT0)"/>
+<wire x1="-40.64" y1="30.48" x2="-43.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
