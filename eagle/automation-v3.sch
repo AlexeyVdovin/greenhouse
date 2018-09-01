@@ -16824,16 +16824,16 @@ Grid 5.08 mm&lt;p&gt;
 </classes>
 <parts>
 <part name="X0" library="OrangePi0" deviceset="OPI-ZERO" device=""/>
-<part name="IC1" library="avr-7" deviceset="MEGA48/88/168" device="-AU"/>
+<part name="IC1" library="avr-7" deviceset="MEGA48/88/168" device="-AU" value="ATmega328P-AU"/>
 <part name="IC2" library="1wire" deviceset="DS2482-100" device="S"/>
 <part name="U$2" library="USBug" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="150"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="150"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="51K 1%"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="4.7K"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="4.7K"/>
 <part name="U$3" library="USBug" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
@@ -16857,7 +16857,7 @@ Grid 5.08 mm&lt;p&gt;
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="10K 1%"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="54.9K"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="150K 1%"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="10K 1%"/>
 <part name="C11" library="rcl" deviceset="CPOL-EU" device="C/6032-28R" value="10.0"/>
 <part name="C12" library="rcl" deviceset="CPOL-EU" device="C/6032-28R" value="10.0"/>
@@ -16865,48 +16865,48 @@ Grid 5.08 mm&lt;p&gt;
 <part name="IC4" library="linear" deviceset="78L*" device="F" technology="05" value="78L33"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="0.33"/>
 <part name="C14" library="rcl" deviceset="CPOL-EU" device="B/3528-21R" value="47.0"/>
-<part name="IC5" library="SteveMarple" deviceset="MCP1702" device="SOT23"/>
+<part name="IC5" library="SteveMarple" deviceset="MCP1702" device="SOT23" value="MCP1702T-33"/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="1.0"/>
 <part name="Q1" library="transistor-small-signal" deviceset="BSS123" device=""/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U$1" library="USBug" deviceset="GND" device=""/>
 <part name="K1" library="relay" deviceset="ZF112" device="S" value="SRD-05VDC-SL-C"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="U$11" library="USBug" deviceset="GND" device=""/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="390"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="390"/>
 <part name="D2" library="diode" deviceset="BAT60J" device="" value="1N4148WS"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="3.6K"/>
 <part name="LED1" library="led" deviceset="LED" device="SML0805"/>
 <part name="V12" library="supply1" deviceset="VDD" device="" value="+12v"/>
 <part name="V1" library="supply1" deviceset="VDD" device="" value="+12v"/>
 <part name="Q2" library="transistor-small-signal" deviceset="BSS123" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U$8" library="USBug" deviceset="GND" device=""/>
 <part name="K2" library="relay" deviceset="ZF112" device="S" value="SRD-05VDC-SL-C"/>
 <part name="D1" library="diode" deviceset="BAT60J" device="" value="1N4148WS"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="3.6K"/>
 <part name="LED2" library="led" deviceset="LED" device="SML0805"/>
 <part name="V2" library="supply1" deviceset="VDD" device="" value="+12v"/>
 <part name="Q3" library="transistor-small-signal" deviceset="BSS123" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U$9" library="USBug" deviceset="GND" device=""/>
 <part name="K3" library="relay" deviceset="ZF112" device="S" value="SRD-05VDC-SL-C"/>
 <part name="D3" library="diode" deviceset="BAT60J" device="" value="1N4148WS"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="3.6K"/>
 <part name="LED3" library="led" deviceset="LED" device="SML0805"/>
 <part name="V3" library="supply1" deviceset="VDD" device="" value="+12v"/>
 <part name="Q4" library="transistor-small-signal" deviceset="BSS123" device=""/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="U$10" library="USBug" deviceset="GND" device=""/>
 <part name="K4" library="relay" deviceset="ZF112" device="S" value="SRD-05VDC-SL-C"/>
 <part name="D4" library="diode" deviceset="BAT60J" device="" value="1N4148WS"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="3.6K"/>
 <part name="LED4" library="led" deviceset="LED" device="SML0805"/>
 <part name="V4" library="supply1" deviceset="VDD" device="" value="+12v"/>
 <part name="D5" library="diode" deviceset="CGRM400*-G" device="" technology="1"/>
@@ -16918,24 +16918,24 @@ Grid 5.08 mm&lt;p&gt;
 <part name="U$12" library="USBug" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
 <part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="10K 1%"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="150K 1%"/>
 <part name="D7" library="diode" deviceset="SUPPRESSOR-" device="SMBJ" value="SMBJ5.0CA"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="30K 1%"/>
 <part name="D8" library="diode" deviceset="BAT54S" device=""/>
 <part name="D9" library="diode" deviceset="BAT54S" device=""/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0603" value="10K 1%"/>
 <part name="D10" library="diode" deviceset="CGRM400*-G" device="" technology="1"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0603" value="10K 1%"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="30K 1%"/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R0603" value="10K 1%"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="0.1"/>
-<part name="R36" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R36" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="C18" library="rcl" deviceset="CPOL-EU" device="E5-10.5"/>
-<part name="R37" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R37" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="C19" library="rcl" deviceset="CPOL-EU" device="E5-10.5"/>
 <part name="C20" library="rcl" deviceset="CPOL-EU" device="E5-10.5"/>
-<part name="R38" library="rcl" deviceset="R-EU_" device="M1206"/>
-<part name="R39" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R38" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R39" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="C21" library="rcl" deviceset="CPOL-EU" device="E5-10.5"/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="X2" library="con-wago-508" deviceset="W237-03P" device=""/>
@@ -16949,19 +16949,39 @@ Grid 5.08 mm&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="-96.52" y="127" size="1.778" layer="91">R11
+62K || 470K</text>
 </plain>
 <instances>
 <instance part="X0" gate="G$1" x="-10.16" y="30.48"/>
 <instance part="IC1" gate="1" x="-73.66" y="48.26"/>
 <instance part="IC2" gate="G$1" x="0" y="116.84"/>
 <instance part="U$2" gate="G$2" x="-106.68" y="10.16"/>
-<instance part="R1" gate="G$1" x="0" y="71.12"/>
-<instance part="R2" gate="G$1" x="0" y="76.2"/>
-<instance part="R3" gate="G$1" x="25.4" y="73.66"/>
-<instance part="R4" gate="G$1" x="25.4" y="78.74"/>
+<instance part="R1" gate="G$1" x="0" y="71.12" smashed="yes">
+<attribute name="NAME" x="-6.35" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="67.818" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="0" y="76.2" smashed="yes">
+<attribute name="NAME" x="-6.35" y="72.6186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="72.898" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="25.4" y="73.66" smashed="yes">
+<attribute name="NAME" x="21.59" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.67" y="67.818" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="25.4" y="78.74" smashed="yes">
+<attribute name="NAME" x="21.59" y="80.2386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.67" y="80.518" size="1.778" layer="96"/>
+</instance>
 <instance part="R5" gate="G$1" x="0" y="81.28"/>
-<instance part="R6" gate="G$1" x="0" y="96.52"/>
-<instance part="R7" gate="G$1" x="0" y="101.6"/>
+<instance part="R6" gate="G$1" x="0" y="96.52" smashed="yes">
+<attribute name="NAME" x="-6.35" y="92.9386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="93.218" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="0" y="101.6" smashed="yes">
+<attribute name="NAME" x="-6.35" y="98.0186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.27" y="98.298" size="1.778" layer="96"/>
+</instance>
 <instance part="U$3" gate="G$2" x="-15.24" y="106.68"/>
 <instance part="JP1" gate="A" x="-2.54" y="5.08"/>
 <instance part="R8" gate="G$1" x="-106.68" y="68.58" rot="R90"/>
@@ -17061,9 +17081,15 @@ Grid 5.08 mm&lt;p&gt;
 <instance part="R31" gate="G$1" x="-35.56" y="114.3" rot="R90"/>
 <instance part="D8" gate="G$1" x="35.56" y="134.62" rot="R90"/>
 <instance part="D9" gate="G$1" x="40.64" y="114.3" rot="R90"/>
-<instance part="R32" gate="G$1" x="-45.72" y="104.14" rot="R180"/>
+<instance part="R32" gate="G$1" x="-45.72" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="-49.53" y="102.6414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-39.37" y="102.362" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="D10" gate="G$1" x="-187.96" y="40.64"/>
-<instance part="R33" gate="G$1" x="-45.72" y="99.06" rot="R180"/>
+<instance part="R33" gate="G$1" x="-45.72" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="-49.53" y="97.5614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-39.37" y="97.282" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R34" gate="G$1" x="0" y="86.36"/>
 <instance part="R35" gate="G$1" x="-48.26" y="88.9"/>
 <instance part="C17" gate="G$1" x="-132.08" y="12.7"/>
@@ -18300,4 +18326,10 @@ Grid 5.08 mm&lt;p&gt;
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
